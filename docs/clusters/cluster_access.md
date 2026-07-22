@@ -130,4 +130,20 @@ Here we will provide instructions for connecting to NJIT HPC on Mac/Linux and Wi
     
     For transferring the data from Wulver to the local machine user needs to select the directory or the data from the left pane and then select `Download selected files`.
 
+=== "On-Demand"
+
+    Users can transfer files between the local machine and the cluster directly from the browser using the File Manager in [Open OnDemand](https://ondemand.njit.edu).
+
+    After logging in to [https://ondemand.njit.edu](https://ondemand.njit.edu), select <kbd>Files</kbd> from the dashboard. This provides access to your `$HOME` directory as well as the Project, Research, and Scratch filesystems on Wulver.
+
+    * To transfer data from the local machine to the cluster, navigate to the destination directory and select <kbd>Upload</kbd>, then choose the files to upload.
+    * To transfer data from the cluster to the local machine, select the files or directories and click <kbd>Download</kbd>.
+    * Use <kbd>Change Directory</kbd> to jump to a specific path, and <kbd>New Directory</kbd> to create folders.
+
+    !!! Note
+
+        This method is intended for small files such as job scripts or input files. For larger datasets, please use command-line tools such as `rsync` (see the Mac/Linux tab).
+
+    For more details, see the [OnDemand Files guide](../OnDemand/files.md#guide).
+
 
