@@ -16,8 +16,8 @@ nav:
         - 'Stheno': 'clusters/decommissioned/stheno.md'
         - 'Lochness': 'clusters/decommissioned/lochness.md'
       - 'User access to clusters': 'clusters/cluster_access.md'
-      - 'Getting started on Wulver': 'clusters/get_started_on_Wulver.md'
       - 'Wulver Filesystems': 'clusters/Wulver_filesystems.md'
+    - 'Getting started on Wulver': 'clusters/get_started_on_Wulver.md'
     - 'Policies':
       - 'Policies/index.md'
       - 'Wulver policy': 'Policies/wulver_policy.md'
