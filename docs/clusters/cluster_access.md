@@ -72,6 +72,17 @@ Here we will provide instructions for connecting to NJIT HPC on Mac/Linux and Wi
     
     login-1-41 ~ >:
     ```
+=== "On-Demand"
+
+    Users can also access the Wulver cluster directly from a web browser using [Open OnDemand](https://ondemand.njit.edu), with no local SSH client or terminal setup required.
+
+    Log in to [https://ondemand.njit.edu](https://ondemand.njit.edu) with your NJIT UCID and password, then authenticate via Cisco two-factor authentication (TFA). From the dashboard, select <kbd>Clusters</kbd> and choose the Wulver shell. This opens a web shell that functions like a standard terminal session on a login node, allowing users to run commands, submit and monitor jobs, and manage files.
+
+    !!! Tip
+
+        If you are on Windows or do not have access to a local terminal or SSH client, the web shell provides a convenient alternative with no additional setup required.
+
+    For more details, including web shell access and cluster system status, see the [OnDemand Clusters overview](../OnDemand/clusters.md#overview).
 
 ## Transfer the Data from the Local Machine to Clusters or vice versa
 
