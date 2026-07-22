@@ -5,7 +5,7 @@ The following instructions are provided to access NJIT HPC clusters from a local
 Faculty can obtain a login to NJIT's HPC by sending an email to [hpc@njit.edu](mailto:hpc@njit.edu). Students can obtain a login either by taking a class that uses one of the systems or by asking their faculty adviser to [contact](mailto:hpc@njit.edu) on their behalf. Your login and password are the same as for any NJIT AFS system.
 
 ## Access to Clusters
-Make sure the user is connected to `NJITsecure` if the user is on campus. If working off campus, NJIT VPN is required. Please find the details [here](https://ist.njit.edu/vpn).
+Make sure the user is connected to the Wi-Fi network: `NJITsecure` if the user is on campus. If working off campus, NJIT VPN is required. Please find the details [here](https://ist.njit.edu/vpn).
 Here we will provide instructions for connecting to NJIT HPC on Mac/Linux and Windows OS.
 
 !!! Update
@@ -72,7 +72,7 @@ Here we will provide instructions for connecting to NJIT HPC on Mac/Linux and Wi
     
     login-1-41 ~ >:
     ```
-=== "On-Demand"
+=== "OnDemand"
 
     Users can also access the Wulver cluster directly from a web browser using [Open OnDemand](https://ondemand.njit.edu), with no local SSH client or terminal setup required.
 
@@ -130,7 +130,7 @@ Here we will provide instructions for connecting to NJIT HPC on Mac/Linux and Wi
     
     For transferring the data from Wulver to the local machine user needs to select the directory or the data from the left pane and then select `Download selected files`.
 
-=== "On-Demand"
+=== "OnDemand"
 
     Users can transfer files between the local machine and the cluster directly from the browser using the File Manager in [Open OnDemand](https://ondemand.njit.edu).
 
