@@ -281,7 +281,7 @@ User can use the following job script to run the script.
         module load wulver # Load slurm, easybuild
         module load Miniforge3
         conda activate torch-cuda
-        srun python touch_tensor.py
+        srun python torch_tensor.py
         ```
 
 !!! warning

@@ -5,7 +5,7 @@ The following instructions are provided to access NJIT HPC clusters from a local
 Faculty can obtain a login to NJIT's HPC by sending an email to [hpc@njit.edu](mailto:hpc@njit.edu). Students can obtain a login either by taking a class that uses one of the systems or by asking their faculty adviser to [contact](mailto:hpc@njit.edu) on their behalf. Your login and password are the same as for any NJIT AFS system.
 
 ## Access to Clusters
-Make sure the user is connected to `NJITsecure` if the user is on campus. If working off campus, NJIT VPN is required. Please find the details [here](https://ist.njit.edu/vpn).
+Make sure the user is connected to the Wi-Fi network: `NJITsecure` if the user is on campus. If working off campus, NJIT VPN is required. Please find the details [here](https://ist.njit.edu/vpn).
 Here we will provide instructions for connecting to NJIT HPC on Mac/Linux and Windows OS.
 
 !!! Update
@@ -72,6 +72,17 @@ Here we will provide instructions for connecting to NJIT HPC on Mac/Linux and Wi
     
     login-1-41 ~ >:
     ```
+=== "OnDemand"
+
+    Users can also access the Wulver cluster directly from a web browser using [Open OnDemand](https://ondemand.njit.edu), with no local SSH client or terminal setup required.
+
+    Log in to [https://ondemand.njit.edu](https://ondemand.njit.edu) with your NJIT UCID and password, then authenticate via Cisco two-factor authentication (TFA). From the dashboard, select <kbd>Clusters</kbd> and choose the Wulver shell. This opens a web shell that functions like a standard terminal session on a login node, allowing users to run commands, submit and monitor jobs, and manage files.
+
+    !!! Tip
+
+        If you are on Windows or do not have access to a local terminal or SSH client, the web shell provides a convenient alternative with no additional setup required.
+
+    For more details, including web shell access and cluster system status, see the [OnDemand Clusters overview](../OnDemand/clusters.md#overview).
 
 ## Transfer the Data from the Local Machine to Clusters or vice versa
 
@@ -118,5 +129,21 @@ Here we will provide instructions for connecting to NJIT HPC on Mac/Linux and Wi
     ![mobaxterm4](img/Mobaxterm4.png)
     
     For transferring the data from Wulver to the local machine user needs to select the directory or the data from the left pane and then select `Download selected files`.
+
+=== "OnDemand"
+
+    Users can transfer files between the local machine and the cluster directly from the browser using the File Manager in [Open OnDemand](https://ondemand.njit.edu).
+
+    After logging in to [https://ondemand.njit.edu](https://ondemand.njit.edu), select <kbd>Files</kbd> from the dashboard. This provides access to your `$HOME` directory as well as the Project, Research, and Scratch filesystems on Wulver.
+
+    * To transfer data from the local machine to the cluster, navigate to the destination directory and select <kbd>Upload</kbd>, then choose the files to upload.
+    * To transfer data from the cluster to the local machine, select the files or directories and click <kbd>Download</kbd>.
+    * Use <kbd>Change Directory</kbd> to jump to a specific path, and <kbd>New Directory</kbd> to create folders.
+
+    !!! Note
+
+        This method is intended for small files such as job scripts or input files. For larger datasets, please use command-line tools such as `rsync` (see the Mac/Linux tab).
+
+    For more details, see the [OnDemand Files guide](../OnDemand/files.md#guide).
 
 
