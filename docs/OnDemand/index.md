@@ -29,7 +29,7 @@ If you have access to the Wulver cluster, you can use OnDemand. Open any browser
 
 ## Dashboard
 
-![dashboard.png](../assets/ondemand/dashboard.png){ width=100% height=100%}
+![overview OOD.png](docs/assets/ondemand/dashboard/overview OOD.png){ width=100% height=100%}
 
 Once you log in, you will see the OnDemand Dashboard. You will see the menu bar on the top where you can access all the tools available including Files Manager, Shell Access, Job Composer, and Interactive Apps. You will also see several pinned apps highlighted on the Dashboard along with quota information. More [info](dashboard.md).
 
