@@ -4,7 +4,7 @@ Active Jobs lets you view every job you currently have running or queued —
 whether you submitted it through OnDemand or from the command line — so you can
 check on its status in one place.
 
-![active_jobs1.png](<..//assets/ondemand/jobs/active-jobs.png>){ width=100% height=100% }
+![active-jobs.png](<../../assets/ondemand/jobs/active-jobs.png>){ width=100% height=100% }
 
 Use the controls above the table to change how many entries are shown per page,
 filter the list with the **Filter** box, and switch between **All Jobs** / your
