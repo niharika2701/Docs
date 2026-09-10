@@ -1,9 +1,9 @@
 # Clusters
 ## Overview
 
-The Clusters section provides browser-based access to the Wulver cluster along with real-time information about its current usage.
+The Clusters section provides browser-based access to the Wulver cluster along with a list of software modules available on the cluster.
 
-![wulver-shell-access-1.png](../assets/ondemand/cluster_shell/wulver-shell-access-1.png){ width=100% height=100%}
+![cluster.png](../assets/ondemand/cluster_shell/cluster.png){ width=100% height=100%}
 
 ### Web Shell Access
 
@@ -15,10 +15,9 @@ Web shell access provides a command-line interface to the Wulver cluster directl
 !!! Tip
     If you are on Windows or do not have access to a local terminal or SSH client, the web shell provides a convenient alternative with no additional setup required.
 
+### Module Browser
 
-### System Status
+The Module Browser lets you search the software modules available on the cluster
+without logging into a shell and running `module avail`.
 
-The System Status page provides a real-time snapshot of the Wulver cluster’s current state. It displays overall availability and utilization of compute nodes, processors, and GPUs, along with the number of running and queued jobs. This view is useful for quickly assessing cluster load before submitting jobs or troubleshooting scheduling delays.
-
-
-![system-status.png](../assets/ondemand/cluster_shell/system_status.png){ width=100% height=100%}
+![module-browser.png](<../assets/ondemand/cluster_shell/module-browser.png>)
