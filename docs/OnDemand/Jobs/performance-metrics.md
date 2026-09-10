@@ -3,7 +3,7 @@
 Performance Metrics tracks and analyzes how efficiently your jobs use the
 resources they request on Wulver.
 
-![performance-metrics.png](../assets/ondemand/jobs/performance-metrics.png)
+![performance-metrics.png](<../../assets/ondemand/jobs/performance-metrics.png>)
 
 Choose a time window to see your Total Jobs, Average Wait Time, Mean Job Duration and Total Wall Time.
 
