@@ -381,6 +381,10 @@
          <lastmod>2026-10-19</lastmod>
     </url>
     <url>
+         <loc>https://hpc.njit.edu/Status/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
          <loc>https://hpc.njit.edu/about/</loc>
          <lastmod>2026-10-19</lastmod>
     </url>
@@ -446,6 +450,10 @@
     </url>
     <url>
          <loc>https://hpc.njit.edu/clusters/Wulver_filesystems/</loc>
+         <lastmod>2026-10-19</lastmod>
+    </url>
+    <url>
+         <loc>https://hpc.njit.edu/clusters/account_request/</loc>
          <lastmod>2026-10-19</lastmod>
     </url>
     <url>
