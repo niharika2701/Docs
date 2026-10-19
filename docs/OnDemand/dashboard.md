@@ -9,6 +9,8 @@ Files, Jobs, Clusters, Interactive Apps, Tools, and My Interactive Sessions.
 ## Announcements
 It displays current HPC announcements (maintenance windows, outages, policy changes).
 
+![dashboard-announcements-box.png](<../assets/ondemand/dashboard/dashboard-announcements-box.png>){ width=100% height=100%}
+
 ## Recent Jobs
 Your jobs that you have most recently submitted are visible here, so you can jump straight to their
 status.
@@ -20,13 +22,23 @@ in use vs. available, percent utilization, nodes in use, and an Up/Down health b
 The top of the panel also shows total **Jobs Running** and **Jobs Queued**. Use this
 to gauge cluster load before submitting.
 
+![dashboard-system-status-box.png](<../assets/ondemand/dashboard/dashboard-system-status-box.png>){ width=100% height=100%}
+
+
 ## Allocations
 Shows the Service Unit (SU) allocation for each account you belong to: SUs used vs.
 your total quota, the percent consumed, and how many SUs you have used.
 
+![dashboard-allocations-box.png](<../assets/ondemand/dashboard/dashboard-allocations-box.png>){ width=100% height=100%}
+
+
 ## Storage
 Shows your storage usage and quota for each filesystem. Each row has a **Browse** button that opens that location in the file manager, and
 notes how much of the space *you* are using versus the account total.
+
+![dashboard-storage-box.png](<../assets/ondemand/dashboard/dashboard-storage-box.png>){ width=100% height=100%}
+
+
 
 ## Quick Access to Features
 We also provide a quick access to our most used features on the dashboard.
