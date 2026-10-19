@@ -71,19 +71,17 @@ Follow these steps to get up and running on HPC.
 -   :material-folder-wrench:{ .lg .middle } __Wulver Scheduled Maintenance__
 
     ---         
-    Wulver will be out of service for maintenance once a month for updates, repairs, and upgrades.  The schedule is 9 a.m. to 9 p.m. the second Tuesday of every month.  During the maintenance period, the logins will be disabled and the jobs that do not end before the maintenance window begins will be held until the maintenance is complete and the cluster is returned to production. 
+    Wulver will be out of service for maintenance once a month for updates, repairs, and upgrades.  The schedule is 8 a.m. to 9 p.m. the second Tuesday of every month.  During the maintenance period, the logins will be disabled and the jobs that do not end before the maintenance window begins will be held until the maintenance is complete and the cluster is returned to production. 
      <br>For example, if you submit a job the day before maintenance, your job will enter a pending state (you will see job status `PD` when using `squeue -u $LOGNAME`). You can either adjust the walltime or wait until maintenance ends. For full details, see the [Maintenance Policy](Policies/maintenance.md).
 
 -   :fontawesome-solid-door-open:{ .lg .middle } __Open Office Hours__
      
     ---       
-    Our regular weekly drop-in office hours have concluded for the summer. However, our facilitators remain available throughout the summer for **one-on-one consultations** to help you optimize your code, troubleshoot workflows, and make the most of NJIT's HPC resources.
+    Our weekly drop-in office hours are back this fall. Stop by with questions about getting an account, submitting jobs, installing software, or debugging a workflow on Wulver, no appointment needed. If you cannot make it to campus, you can join the same session over Zoom.
 
-     **How to book:** Email us at [hpc@njit.edu](mailto:hpc@njit.edu) with a brief description of what you'd like to discuss, and we will coordinate a one-on-one session with the appropriate facilitator.
-
-     - :material-email: **Contact:** [hpc@njit.edu](mailto:hpc@njit.edu)
-     - :material-account-tie: **Format:** One-on-one consultations (in-person or virtual)
-     - :material-calendar-clock: **Availability:** By appointment throughout the summer
+     - :material-calendar-clock: **When:** Every Monday 12pm - 2pm and Wednesday 2pm - 4 pm
+     - :material-map-marker: **Where:** GITC 5302M
+     - :material-video: **Join virtually:** [Zoom link](https://njit-edu.zoom.us/j/91904852274?pwd=g4s1gAiBnnsbzkabuvjFaZ80GXnaFl.1)
 </div>
 
 ## HPC Highlights!
