@@ -15,6 +15,8 @@ It displays current HPC announcements (maintenance windows, outages, policy chan
 Your jobs that you have most recently submitted are visible here, so you can jump straight to their
 status.
 
+![dashboard-recent-jobs-box.png](<../assets/ondemand/dashboard/dashboard-recent-jobs-box.png>){ width=100% height=100%}
+
 ## System Status
 A real-time snapshot of Wulver by partition. For each partition (general, gpu,
 gpu (MIGs), bigmem, debug, debug_gpu, course, course_gpu) you can see cores/GPUs/MIGs
