@@ -4,7 +4,7 @@ The Job Composer provides a graphical interface for creating, editing, and
 submitting Slurm jobs from templates, with a built-in file editor and job list.
 No shell or local SSH required.
 
-![jobs-dashboard.png](../../assets/ondemand/jobs/job-composer-submit.png){ width=100% height=100%}
+![Job Script (Slurm) form with script location, account, QOS, partition, walltime, cores and memory fields on the left, and the generated script and Submit button on the right](../../assets/ondemand/jobs/job-composer-submit.png){ width=100% height=100%}
 
 ### Setting the Script Location and Names
 
@@ -72,6 +72,6 @@ The **History** page lists jobs you've submitted through the composer along with
 their status. From there you can **Cancel** a running job or **Delete** an entry
 from the History view (deleting an entry does not remove the job's files).
 
-![jobs-dashboard.png](../../assets/ondemand/jobs/job-history-new.png){ width=100% height=100%}
+![Job Composer History page listing submitted jobs with their status and options to cancel or delete them](../../assets/ondemand/jobs/job-history-new.png){ width=100% height=100%}
 
 
