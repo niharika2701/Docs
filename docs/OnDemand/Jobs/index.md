@@ -21,6 +21,6 @@ your allocation and performance.
 - **Performance Metrics** summarizes statistics on your job efficiency (memory,
   time, CPU), average wait time, mean job duration, and total wall time.
 
-![jobs-dropdown.png](<../../assets/ondemand/jobs/jobs-dropdown-new.png>){ width=100% height=100%}
+![Jobs menu open in the top navigation bar, listing Job Composer, Active Jobs, Allocations, My Jobs and Performance Metrics](<../../assets/ondemand/jobs/jobs-dropdown-new.png>){ width=100% height=100%}
 
 
